@@ -2,6 +2,11 @@
 
 This is a repository for a Pizza Station website, developed using HTML, CSS, and a little bit of JavaScript. The website allows users to navigate on Pizza Station and learn more about it.
 
+## Deploy:
+<b> Click here to check out the live version of the [Pizza Station Website](https://station-of-pizza.netlify.app/) <br> <span> Or click here: https://station-of-pizza.netlify.app/<span/>  <b/>
+
+
+
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
