@@ -514,3 +514,35 @@ p {
     width: 50%;
   }
 }
+
+/* FOOTER */
+.footer{
+  background: #222;
+  text-align: center;
+}
+
+.social-icon{
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+.social-icon:hover{
+  color: var(--clr-primary);
+  font-size: 1.45rem;
+}
+
+.footer-text{
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  font-weight: 400;
+  transition: all 0.5s linear;
+}
+.footer-text:hover{
+  color: var(--clr-primary-light);
+}
+
+.company{
+  color: var(--clr-primary);
+}
