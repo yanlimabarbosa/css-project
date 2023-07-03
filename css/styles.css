@@ -210,6 +210,7 @@ p {
 
 .skill-title {
   transition: var(--transition);
+  letter-spacing: 0.25rem;
 }
 
 .skill-text {
@@ -233,48 +234,106 @@ p {
     float: left;
     width: 50%;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    .skill {
-      float: left;
-      width: 25%;
-    }
+@media screen and (min-width: 1200px) {
+  .skill {
+    float: left;
+    width: 25%;
   }
+}
 
-  /* ABOUT */
+/* ABOUT */
+.about-img,
+.about-info {
+  padding: 2rem 0;
+}
+
+.about-picture-container {
+  background: var(--clr);
+  border: 0.5rem solid var(--clr-primary);
+  max-width: 30rem;
+  /* extra stuff */
+  overflow: hidden;
+}
+
+.about-picture {
+  transition: var(--transition);
+}
+
+.about-picture-container:hover .about-picture {
+  opacity: 0.8;
+  transform: scale(1.2);
+}
+
+.about-text {
+  max-width: 26rem;
+  color: var(--clr-grey-5);
+}
+@media screen and (min-width: 992px) {
   .about-img,
   .about-info {
-    padding: 2rem 0;
+    float: left;
   }
+  .about-info {
+    padding-left: 2rem;
+  }
+}
 
-  .about-picture-container {
-    background: var(--clr);
-    border: 0.5rem solid var(--clr-primary);
-    max-width: 30rem;
-    /* extra stuff */
-    overflow: hidden;
-  }
+/* PRODUCTS */
 
-  .about-picture {
-    transition: var(--transition);
-  }
+.products {
+  background: var(--clr-grey-10);
+}
 
-  .about-picture-container:hover .about-picture {
-    opacity: 0.8;
-    transform: scale(1.2);
-  }
+.products article {
+  padding: 1.5rem 0;
+}
 
-  .about-text {
-    max-width: 26rem;
-    color: var(--clr-grey-5);
+.product {
+  margin-bottom: 2rem;
+}
+
+.product-img {
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  height: 17rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 60%;
+}
+
+.product-text {
+  color: var(--clr-grey-5);
+  max-width: 26rem;
+}
+
+.product-price {
+  color: var(--clr-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .product {
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
   }
-  @media screen and (min-width:992px){
-    .about-img, .about-info{
-      float: left;
-    }
-    .about-info{
-      padding-left: 2rem;
-    }
-    
+}
+@media screen and (min-width: 992px) {
+  .product {
+    float: left;
+    width: 33.33%;
+    padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products-info {
+    float: left;
+    width: 25%;
+    margin-right: 1rem;
+  }
+  .products-inventory {
+    float: left;
+    width: 65%;
   }
 }
