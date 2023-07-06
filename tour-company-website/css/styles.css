@@ -505,6 +505,7 @@ Featured Tours
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-right: -22girem;
   align-items: center;
 }
 .tour-footer p {
