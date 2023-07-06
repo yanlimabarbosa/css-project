@@ -33,7 +33,7 @@ The website is designed to be user-friendly and intuitive. Here's a quick overvi
 
 ## Contributing
 
-Contributions to the Pizza Station website are welcome! If you'd like to contribute, please follow these steps:
+Contributions to the Endless Rails are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/your-feature`
