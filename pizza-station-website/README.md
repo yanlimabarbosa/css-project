@@ -28,7 +28,7 @@ The Pizza Station website provides the following features:
 
 To get a local copy of the Pizza Station website up and running on your machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yanlimabarbosa/pizza-station-website.git`
+1. Clone the repository: `git clone https://github.com/yanlimabarbosa/css-projects.git`
 2. Navigate to the project directory: `cd pizza-station-website`
 3. Open the `index.html` file in your preferred web browser.
 
