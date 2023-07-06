@@ -266,7 +266,7 @@ About
     left: -1.5rem;
     z-index: -1;
   }
-  .about-img{
+  .about-img {
     position: relative;
   }
 }
@@ -275,6 +275,69 @@ About
 Services
 ===============
 */
+.services {
+  /* background: var(--clr-primary-9); */
+  background: var(--clr-grey-9);
+}
+.services-center {
+}
+.service {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.service-icon {
+  padding: 0.5rem;
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-1);
+  padding: 0.5rem;
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  border-radius: 20%;
+}
+.service-text {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.service-info {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .services-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .service {
+    flex: 0 0 calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 996px) {
+  .service {
+    flex: 0 0 calc(33.333% - 1rem);
+  }
+}
+@media (min-width: 1170px) {
+  .service {
+    display: flex;
+    text-align: left;
+  }
+  .service-icon {
+    align-self: flex-start;
+  }
+  .service-info {
+    padding-left: 1rem;
+  }
+  .service-title {
+    margin-bottom: 0.5rem;
+  }
+}
 
 /*
 =============== 
