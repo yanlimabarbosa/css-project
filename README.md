@@ -7,6 +7,9 @@
   <li>
 <b> Click here to check out the live version of the <strong>Endless Rails Website:</strong> https://tour-company-yan.netlify.app//
   </li>
+  <li>
+<b> Check out a collection of <strong><a href="https://grid-mini-projects-yan.netlify.app/">grid mini projects</a></strong> developed exclusively for grid implementation learning proposals
+  </li>
 </ul>
 
 ## Getting Started
