@@ -98,7 +98,6 @@ Main Navbar
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  
 }
 
 /* @media (min-width: 992px) {
@@ -110,3 +109,39 @@ Main Navbar
     
   }
 } */
+
+/* 
+===============
+Hero
+===============
+*/
+.hero-header {
+  min-height: 100vh;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner {
+}
+
+.hero-banner p {
+  width: 80%;
+  max-width: 560px;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .hero-banner {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-header {
+    background: linear-gradient(rgb(0, 21, 255), rgba(0, 0, 0, 0.396)),
+      url(images/image-2.jpeg) center/cover fixed no-repeat;
+  }
+}
