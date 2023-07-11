@@ -48,7 +48,7 @@ h1 {
 h2 {
   margin-bottom: 0;
 }
-h3 {
+p {
   font-weight: 300;
   font-size: 0.7rem;
   line-height: 2;
@@ -144,4 +144,49 @@ Hero
     background: linear-gradient(rgb(0, 21, 255), rgba(0, 0, 0, 0.396)),
       url(images/image-2.jpeg) center/cover fixed no-repeat;
   }
+}
+/* 
+===============
+Cards
+===============
+*/
+.title {
+  text-align: center;
+}
+.cards {
+  padding: 4rem 0;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+.cards-center {
+  width: 80vw;
+  max-width: 1170px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(268px, 1fr)
+  ); /* max value(1170px) - gap(2rem or 64px) = 368px */
+  /* Here media queries also could be used instead of autofill */
+  gap: 2rem;
+}
+.card {
+  border: 1px solid var(--darkGrey);
+  margin-bottom: 3rem;
+}
+.card-info {
+  padding: 1rem;
+}
+.card-footer {
+  background: darkgrey;
+  padding: 0.5rem 1 rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.card-footer span {
+  color: var(--primaryColor);
 }
